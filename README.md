@@ -80,11 +80,8 @@ Enough chit-chat, let's write some HTML!
 First, we need a way to view the results of our HTML in a browser.
 
 If you're working on your own machine, from the terminal in the directory you're
-working in, run `open index.html` to open up a copy of the file in your browser. Or, run `explorer.exe index.html` if you are using a WSL/Ubuntu local environment.
-
-If you are working in the in-browser IDE, type `httpserver` from the console to
-start up a temporary web server, and copy the URL provided into the browser's URL
-bar to view `index.html`.
+working in, run `open index.html` to open up a copy of the file in your browser. 
+Or, run `explorer.exe index.html` if you are using a WSL/Ubuntu local environment.
 
 Just to speed things up a bit, paste the following code into `index.html`:
 
@@ -120,7 +117,7 @@ child-node has appeared underneath `body`. You can use the
 [disclosure triangle](https://en.wikipedia.org/wiki/Disclosure_widget) to see
 which children are wrapped or nested within the `body` tag.
 
-![Image of Recommendation](https://curriculum-content.s3.amazonaws.com/phase-1/dom-editing-lab/disclosure-triangle.png)
+![disclosure triangle](https://curriculum-content.s3.amazonaws.com/phase-1/dom-editing-lab/disclosure-triangle.png)
 
 Next, we'll add a paragraph below the title. We'll also add some highlighted
 bits of text to the paragraph to make it stand out a little.
